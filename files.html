@@ -1,0 +1,193 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en" class="js">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <style>
+.cp-text{ color: rgba(0,0,0,.7); text-shadow: 0 1px rgba(255, 255, 255, 0.1);}
+</style>
+</head>
+<body>
+<form enctype="multipart/form-data" action="descargar.php" method="POST" id="form1">
+
+<div class="row">
+	
+	<div class="col-sm-6 col-md-6 col-xs-6" >
+
+                <legend>Seleccione Color del Fuente</legend>
+
+                <div class="sqgrp1" >
+                    <input type="radio" id="Q1A1" value="1" name="Q1" /><label for="Q1A1"><span></span></label>
+                </div>
+                <div class="sqgrp2" >
+                    <input type="radio" id="Q1A2" value="2" name="Q1" /><label for="Q1A2"><span></span></label>
+                </div>
+                <div class="sqgrp3" >
+                    <input type="radio" id="Q1A3" value="3" name="Q1" /><label for="Q1A3"><span></span></label>
+                </div>
+                <div class="sqgrp4" >
+                    <input type="radio" id="Q1A4" value="4" name="Q1" /><label for="Q1A4"><span></span></label>
+                </div>
+                <div class="sqgrp5" >
+                    <input type="radio" id="Q1A5" value="5" name="Q1" /><label for="Q1A5"><span></span></label>
+                </div>
+                <div class="sqgrp6" >
+                    <input type="radio" id="Q1A6" value="6" name="Q1" /><label for="Q1A6"><span></span></label>
+                </div>
+	</div>
+		
+
+	<div class="col-sm-6 col-md-6 col-xs-6">
+            <fieldset>
+                <legend>Seleccione Tamaño del Fuente</legend>
+
+                <div class="divletras">
+                    <span class="numero">5</span>
+                </div>
+                <div class="fuente">
+                    <input type="radio" id="Q1AA-1" value="-1" name="Q2"/>
+                    <label for="Q1AA-1"><span></span></label> 
+                </div>
+
+
+
+                <div class="divletras">
+                    <span class="numero">15</span>
+                </div>
+                <div class="fuente">
+                    <input type="radio" id="Q1AA0" value="1" name="Q2"/>
+                    <label for="Q1AA0"><span></span></label> 
+                </div>
+
+
+                <div class="divletras">
+                                   <span class="numero">25</span>
+                </div>
+                <div class="fuente">
+                    <input type="radio" id="Q1AA1" value="1" name="Q2"/>
+                    <label for="Q1AA1"><span></span></label> 
+                </div>
+                <div class="divletras">
+                    <span class="numero">35</span>
+                        </div>
+                <div class="fuente" >
+                    <input type="radio" id="Q1AA2" value="2" name="Q2" />
+                    <label for="Q1AA2"><span></span></label>
+                </div>
+                <div class="divletras">
+                    <span class="numero">45</span>
+                </div>
+                <div class="fuente" >
+                    <input type="radio" id="Q1AA3" value="3" name="Q2" />
+                    <label for="Q1AA3"><span></span></label>
+                </div>
+                <div class="divletras">
+                    <span class="numero">55</span>
+                </div>
+                <div class="fuente" >
+                    <input type="radio" id="Q1AA4" value="4" name="Q2" />
+                    <label for="Q1AA4"><span></span></label>
+                </div>
+                <div class="divletras">
+                    <span class="numero">65</span>
+                </div>
+                <div class="fuente" >
+                    <input type="radio" id="Q1AA5" value="5" name="Q2" />
+                    <label for="Q1AA5"><span></span></label>
+                </div>
+                <div class="divletras">
+                    <span class="numero">75</span>
+                </div>
+                <div class="fuente" >
+                    <input type="radio" id="Q1AA6" value="6" name="Q2" />
+                    <label for="Q1AA6"><span></span></label>
+                </div>
+
+                <div class="divletras">
+                    <span class="numero">85</span>
+                </div>
+                <div class="fuente" >
+                    <input type="radio" id="Q1AA7" value="7" name="Q2" />
+                    <label for="Q1AA7"><span></span></label>
+                </div>
+
+                <div class="divletras">
+                    <span class="numero">95</span>
+                </div>
+                <div class="fuente" style="left: 870px;">
+                    <input type="radio" id="Q1AA8" value="8" name="Q2" />
+                    <label for="Q1AA8"><span></span></label>
+                </div>
+
+
+                <div class="divletras">
+                    <span class="numero">105</span>
+                </div>
+                <div class="fuente" style="left: 870px;">
+                    <input type="radio" id="Q1AA9" value="9" name="Q2" />
+                    <label for="Q1AA9"><span></span></label>
+                </div>
+
+
+                <div class="divletras">
+                    <span class="numero">115</span>
+                </div>
+                <div class="fuente" style="left: 870px;">
+                    <input type="radio" id="Q1AA10" value="10" name="Q2" />
+                    <label for="Q1AA10"><span></span></label>
+                </div>
+
+            </fieldset>
+	</div>
+
+</div>
+
+
+			<div class="content">
+            <fieldset>
+                <legend>Seleccione Subtitulo Tipo .SRT</legend>
+
+<!--				<input name="uploadedfile" type="file" />-->
+				<div class="box">
+					<input type="file" name="uploadedfile" id="file-5" class="inputfile inputfile-4" data-multiple-caption="{count} files selected" multiple />
+					<label for="file-5"><figure><svg xmlns="http://www.w3.org/2000/svg" width="20" height="17" viewBox="0 0 20 17"><path d="M10 0l-5.2 4.9h3.3v5.1h3.8v-5.1h3.3l-5.2-4.9zm9.3 11.5l-3.2-2.1h-2l3.4 2.6h-3.5c-.1 0-.2.1-.2.1l-.8 2.3h-6l-.8-2.2c-.1-.1-.1-.2-.2-.2h-3.6l3.4-2.6h-2l-3.2 2.1c-.4.3-.7 1-.6 1.5l.6 3.1c.1.5.7.9 1.2.9h16.3c.6 0 1.1-.4 1.3-.9l.6-3.1c.1-.5-.2-1.2-.7-1.5z"/></svg></figure> <span>Seleccione Archivo .SRT&hellip;</span></label>
+				</div>
+				<input type="submit" value="Modificar STR" name="botonsube" class="btn btn-primary"/>
+            </fieldset>
+			</div>
+
+
+</form>	
+
+    <script src="js/jquery-1.10.2.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-132096886-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-132096886-1');
+</script>
+<!-- Footer -->
+<footer class="page-footer font-small blue">
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3 cp-text">© 2019 Copyright:
+    Todos los derechos reservados - Desarrollado Por Ing. Leonardo Arevalo 1.0 
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+
+</body>
+</html>
+
+
